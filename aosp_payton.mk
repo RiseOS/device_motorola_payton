@@ -58,6 +58,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libz
 
 # TWRP
+
 ifeq ($(WITH_TWRP),true)
     $(call inherit-product, device/motorola/payton/twrp/twrp.mk)
 else
